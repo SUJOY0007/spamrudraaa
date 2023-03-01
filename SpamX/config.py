@@ -18,9 +18,13 @@ API_HASH = os.getenv("API_HASH", "")
 if not API_HASH:
    print("SpamX [INFO]: You didn't fill API_HASH var!")
    sys.exit()
-ALIVE_PIC = os.getenv("ALIVE_PIC", "")
-ALIVE_MSG = os.getenv("ALIVE_MSG", "")
-PING_MSG = os.getenv("PING_MSG", "")
+ALIVE_PIC = os.getenv("ALIVE_PIC", "https://graph.org/file/c665d41bbabde1f0b9b16.jpg")
+ALIVE_MSG = os.getenv("ALIVE_MSG", "🥵𝐑𝐔𝐃𝐑𝐀 𝐒𝐏𝐀𝐌 𝐓𝐄𝐀𝐌 𝐎𝐍 𝐅𝐈𝐑𝐄🥵")
+PING_MSG = os.getenv("PING_MSG", "█▀█ █▀█ █▄░█ █▀▀
+
+█▀▀ █▄█ █░▀█ █▄█
+
+ϟ SPARKY X SPAM ϟ︎ 0.002 ᴍs")
 CLIENT = os.getenv("CLIENT", None)
 if not CLIENT:
    print("SpamX [INFO]: You have to fill CLIENT var!")
